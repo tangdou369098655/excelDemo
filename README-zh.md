@@ -1,4 +1,4 @@
-@[TOC](从0-1实现前端读取excel表格并渲染到界面)
+@[从0-1实现前端读取excel表格并渲染到界面]()
 * 本文旨在解决无需调用后端接口，实现前端读取表格文件，获取文件内容，渲染到界面的需求
 * 我的其他文章可以解决扩展需求：
 * 读取解析表格后执行**自动单元格合并**
@@ -16,6 +16,7 @@
 基于**vue-element-admin**直接开始
 ## 步骤一：准备工作
 1. [点击进入vue-element-admin下载](https://github.com/PanJiaChen/vue-admin-template)
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200430005909216.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
 2. 下载解压![在这里插入图片描述](https://img-blog.csdnimg.cn/20200430010324823.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
 3. 安装依赖、运行![在这里插入图片描述](https://img-blog.csdnimg.cn/20200430011233719.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
@@ -108,7 +109,9 @@ export default {
 ```
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200430014652773.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
 
- 5.  **下载xlsx** 、引入；![在这里插入图片描述](https://img-blog.csdnimg.cn/20200430014838456.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
+ 5.  **下载xlsx** 、引入；
+
+ ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200430014838456.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200430015001318.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
 
  6. 编写**导入表格** 功能、保存刷新；
@@ -159,7 +162,9 @@ export default {
 </script>
 ```
 
- 7.  编写如下表格，用来**测试功能** ；![在这里插入图片描述](https://img-blog.csdnimg.cn/2020043002180586.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
+ 7.  编写如下表格，用来**测试功能** ；
+
+ ![在这里插入图片描述](https://img-blog.csdnimg.cn/2020043002180586.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200430021859321.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200430021954425.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
 
@@ -245,6 +250,7 @@ export default {
 </script>
 ```
 我们把表格改成不规则状态、保存、打开界面测试
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200430023301101.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/202004300234382.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
 ## 步骤三：实现表格渲染
@@ -288,7 +294,9 @@ data() {
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200430035034274.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200430035109165.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200430034542576.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
+ 
  2. 增加 **表格渲染方法** 。
+
  > 备注：表格渲染方法中有一部分代码是用来映射中英文属性名的，这个是我增加的一个功能，有时候也不不需要使用，可以按自己需求来修改代码；
 
 ```javascript
@@ -334,6 +342,7 @@ setTable(headers, excellist) {
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200430035828289.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
 
 ## 结语
+
 > 本代码支持不规则数据，没有表头的也可以渲染到界面哦~~
 > 欢迎大家指出我代码的错误~  
 > 如果有更好的写法，欢迎大家提出来，共同进步哟~~ 
