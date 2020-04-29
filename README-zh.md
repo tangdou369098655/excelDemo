@@ -1,4 +1,4 @@
-@[从0-1实现前端读取excel表格并渲染到界面]()
+# @[从0-1实现前端读取excel表格并渲染到界面](https://github.com/tangdou369098655/excelDemo/blob/master/README-zh.md)
 * 本文旨在解决无需调用后端接口，实现前端读取表格文件，获取文件内容，渲染到界面的需求
 * 我的其他文章可以解决扩展需求：
 * 读取解析表格后执行**自动单元格合并**
@@ -18,11 +18,21 @@
 ### 1. [点击进入vue-element-admin下载](https://github.com/PanJiaChen/vue-admin-template)
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200430005909216.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
-2. 下载解压![在这里插入图片描述](https://img-blog.csdnimg.cn/20200430010324823.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
-3. 安装依赖、运行![在这里插入图片描述](https://img-blog.csdnimg.cn/20200430011233719.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
+
+### 2. 下载解压!
+
+[在这里插入图片描述](https://img-blog.csdnimg.cn/20200430010324823.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
+
+### 3. 安装依赖、运行!
+
+[在这里插入图片描述](https://img-blog.csdnimg.cn/20200430011233719.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200430011409967.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)![在这里插入图片描述](https://img-blog.csdnimg.cn/20200430011530155.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
-4. 运行成功![在这里插入图片描述](https://img-blog.csdnimg.cn/20200430011749527.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
+
+### 4. 运行成功!
+
+[在这里插入图片描述](https://img-blog.csdnimg.cn/20200430011749527.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200430012004341.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
+
 ## 步骤二：实现导入表格解析
 
  ### 1. 进入以下路径；
