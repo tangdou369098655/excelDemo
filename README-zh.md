@@ -8,10 +8,10 @@
 ## 说明
 公司平时做**后台管理系统**比较多，类似需求更是十分常见，我也写过类似帖子，但是都是只放代码从来不写注释和步骤，嘿嘿，话不多说，此文章为完整的记录：
 ## 前提
-> 平时我经常使用的是：
-###  **Ant Design + Angular**
-###  **Element UI + Vue**
-###  **Ant Design + Vue**
+> ###  平时我经常使用的是：
+> ###  **Ant Design + Angular**
+> ###  **Element UI + Vue**
+> ###  **Ant Design + Vue**
 > 方便起见，今天我们使用**Element UI + Vue**
 基于**vue-element-admin**直接开始
 ## 步骤一：准备工作
