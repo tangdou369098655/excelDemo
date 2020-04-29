@@ -15,7 +15,7 @@
 方便起见，今天我们使用**Element UI + Vue**
 基于**vue-element-admin**直接开始
 ## 步骤一：准备工作
-1. [点击进入vue-element-admin下载](https://github.com/PanJiaChen/vue-admin-template)
+### 1. [点击进入vue-element-admin下载](https://github.com/PanJiaChen/vue-admin-template)
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200430005909216.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
 2. 下载解压![在这里插入图片描述](https://img-blog.csdnimg.cn/20200430010324823.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
@@ -25,9 +25,9 @@
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200430012004341.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
 ## 步骤二：实现导入表格解析
 
- 1. 进入以下路径；
+ ### 1. 进入以下路径；
 > src\views\dashboard\index.vue
- 2. 删除无用代码，准备开始；
+ ### 2. 删除无用代码，准备开始；
  ```javascript
 <template>
   <div class="dashboard-container">
@@ -48,7 +48,7 @@ export default {
 ```
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200430012847944.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
 
- 3. 增加 **导入** 按钮，保存刷新；
+ ### 3. 增加 **导入** 按钮
  
 
 ```javascript
@@ -107,14 +107,17 @@ export default {
 // 按钮样式
 </style>
 ```
+
+ ### 4. 保存刷新；
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200430014652773.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
 
- 5.  **下载xlsx** 、引入；
+ ### 5.  **下载xlsx** 、引入；
 
  ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200430014838456.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200430015001318.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
 
- 6. 编写**导入表格** 功能、保存刷新；
+ ### 6. 编写**导入表格** 功能、保存刷新；
 
 ```javascript
 <script>
@@ -162,13 +165,13 @@ export default {
 </script>
 ```
 
- 7.  编写如下表格，用来**测试功能** ；
+ ### 7.  编写如下表格，用来**测试功能** ；
 
  ![在这里插入图片描述](https://img-blog.csdnimg.cn/2020043002180586.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200430021859321.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200430021954425.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
 
- 8. 有时候，表格题目是中文，读取后我们想要得到英文属性名，那么 **增加如下代码** 、再次测试；
+ ### 8. 有时候，表格题目是中文，读取后我们想要得到英文属性名，那么 **增加如下代码** 、再次测试；
  
 
 ```javascript
@@ -249,13 +252,13 @@ export default {
 }
 </script>
 ```
-我们把表格改成不规则状态、保存、打开界面测试
+### 我们把表格改成不规则状态、保存、打开界面测试
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200430023301101.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/202004300234382.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
 ## 步骤三：实现表格渲染
 
- 1. 界面增加 **表格组件** 。
+ ### 1. 界面增加 **表格组件** 。
  
 
 ```javascript
@@ -295,7 +298,7 @@ data() {
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200430035109165.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200430034542576.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
  
- 2. 增加 **表格渲染方法** 。
+ ### 2. 增加 **表格渲染方法** 。
 
  > 备注：表格渲染方法中有一部分代码是用来映射中英文属性名的，这个是我增加的一个功能，有时候也不不需要使用，可以按自己需求来修改代码；
 
@@ -328,7 +331,7 @@ setTable(headers, excellist) {
 ```
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200430035152498.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
 
-3. 调用 **表格渲染方法** 。
+### 3. 调用 **表格渲染方法** 。
 
 ```javascript
 		// 在importExcel(e)方法中添加下面代码
