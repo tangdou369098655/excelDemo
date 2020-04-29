@@ -13,7 +13,7 @@
 > ###  **Element UI + Vue**
 > ###  **Ant Design + Vue**
 > ###  方便起见，今天我们使用**Element UI + Vue**
-基于**vue-element-admin**直接开始
+> ###  基于**vue-element-admin**直接开始
 ## 步骤一：准备工作
 ### 1. [点击进入vue-element-admin下载](https://github.com/PanJiaChen/vue-admin-template)
 
