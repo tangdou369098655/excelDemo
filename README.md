@@ -79,7 +79,7 @@ export default {
 ```
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200430012847944.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
 
- ### 3. Add * * import * * button
+ ### 3. Add **import** button
 
 
 ```javascript
@@ -147,7 +147,7 @@ export default {
  ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200430014838456.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200430015001318.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
 
- ### 6. Write * * Import Table * * function code, Save and Refresh；
+ ### 6. Write ** Import Table ** function code, Save and Refresh；
 
 ```javascript
 <script>
@@ -195,13 +195,13 @@ export default {
 </script>
 ```
 
- ### 7.  Write the following table to * * test the function** ；
+ ### 7.  Write the following table to ** test the function** ；
 
  ![在这里插入图片描述](https://img-blog.csdnimg.cn/2020043002180586.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200430021859321.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200430021954425.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Rhbmdkb3UzNjkwOTg2NTU=,size_16,color_FFFFFF,t_70)
 
- ### 8. Sometimes, the table title is Chinese. If we want to get the English attribute name in Object After the table is parsed successfully ,  **Add The Following Code * *  and test again;
+ ### 8. Sometimes, the table title is Chinese. If we want to get the English attribute name in Object After the table is parsed successfully ,  **Add The Following Code **  and test again;
 
 
 ```javascript
