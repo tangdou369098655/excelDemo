@@ -3,7 +3,7 @@
 English | [简体中文](./README-zh.md)
 
 
-> In this tutorial, we are going to implement Front end reading excel tables and get the content  of the file without back-end interface.
+> In this tutorial, we are going to implement Front end reading excel tables and get the content  of the file ,Without back-end interface.
 
 
 * Use it to learn important XLSX features.
